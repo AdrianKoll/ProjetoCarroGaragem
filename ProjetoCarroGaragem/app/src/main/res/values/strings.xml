@@ -1,0 +1,117 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Corex Security</string>
+
+    <!-- Telas de autenticação -->
+    <string name="welcome">Bem-vindo</string>
+    <string name="welcome_description">Bem-vindo ao sistema de controle de veículos. Gerencie entradas e saídas de forma simples e eficiente.</string>
+    <string name="company_name">COREX SECURITY</string>
+    <string name="company_slogan">CONTROLE INTELIGENTE</string>
+    <string name="sign_in">Entrar</string>
+    <string name="sign_up">Cadastrar</string>
+    <string name="sign_in_social">Entrar com Redes Sociais</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="hint_bem_vindo">Bem-vindo ao DriveTrack</string>
+
+    <!-- Campos de login/cadastro -->
+    <string name="user_name">Nome de usuário</string>
+    <string name="password">Senha</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Telefone</string>
+    <string name="remember_password">Lembrar senha</string>
+    <string name="terms_conditions">Aceito os termos e condições</string>
+    <string name="back">Voltar</string>
+    <string name="already_have_account">Já tem uma conta?</string>
+    <string name="dont_have_account">Não tem conta?</string>
+
+    <!-- Campos de veículos (labels) -->
+    <string name="label_motivo">Motivo</string>
+    <string name="label_nome_completo">Nome Completo</string>
+    <string name="label_placa_carro">Placa do Carro</string>
+    <string name="label_modelo_cor">Modelo / Cor</string>
+    <string name="label_data">Data</string>
+    <string name="label_horario_entrada">Horário Entrada</string>
+    <string name="label_horario_saida">Horário Saída (opcional)</string>
+    <string name="label_observacao">Observação</string>
+
+    <!-- Campos de veículos (hints) -->
+    <string name="hint_motivo">Digite o motivo</string>
+    <string name="hint_nome_completo">Digite o nome completo</string>
+    <string name="hint_placa_carro">Digite a placa do carro</string>
+    <string name="hint_modelo_cor">Digite o modelo e cor</string>
+    <string name="hint_data">DD/MM/AAAA</string>
+    <string name="hint_horario">HH:MM</string>
+    <string name="hint_observacao">Adicione observações aqui</string>
+
+    <!-- Botões -->
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="btn_check_vehicle">Verificar</string>
+    <string name="btn_register_new_vehicle">Registrar Novo Veículo</string>
+
+    <!-- Mensagens -->
+    <string name="login_success">Login realizado com sucesso!</string>
+    <string name="login_error">Usuário ou senha incorretos</string>
+    <string name="signup_success">Cadastro realizado com sucesso!</string>
+    <string name="field_required">Este campo é obrigatório</string>
+    <string name="field_required_name">Informe seu nome</string>
+    <string name="field_required_phone">Informe seu telefone</string>
+    <string name="password_min_length">A senha deve ter pelo menos 6 caracteres</string>
+    <string name="invalid_email">Digite um e-mail válido</string>
+    <string name="accept_terms">Você deve aceitar os termos e condições</string>
+
+    <!-- Busca -->
+    <string name="search_label">Buscar</string>
+    <string name="search_hint">Buscar por placa, nome, motivo ou modelo…</string>
+    <string name="no_results">Nenhum veículo encontrado</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_plate">Placa</string>
+    <string name="filter_name">Nome</string>
+    <string name="filter_reason">Motivo</string>
+    <string name="filter_date_time">Data/Hora ↑</string>
+    <string name="filter_date_time_tooltip">Filtrar por data e hora em ordem crescente</string>
+
+    <!-- Outros -->
+    <string name="logout_icon_desc">Botão de sair</string>
+    <string name="back_icon_desc">Botão de voltar</string>
+    <string name="registrar_veiculo">Registrar Veículo</string>
+    <string name="registrar_novo_veiculo">Registrar Novo Veículo</string>
+
+    <!-- Headers -->
+    <string name="header_title">Sistema de Veículos</string>
+    <string name="welcome_user">Olá, admin</string>
+    <string name="check_vehicle_header">Verificar Veículo</string>
+    <string name="manage_records_header">Gerenciar Registros</string>
+
+    <!-- Cards -->
+    <string name="card_verificar_registrar_title">Verificar / Registrar</string>
+    <string name="card_verificar_registrar_desc">Verificar se um veículo já está registrado ou registrar um novo veículo</string>
+    <string name="card_verificar_registrar_icon_desc">Ícone de verificar/registrar</string>
+
+    <string name="card_editar_title">Editar</string>
+    <string name="card_editar_desc">Buscar, visualizar, editar e excluir registros de veículos</string>
+    <string name="card_editar_icon_desc">Ícone de editar</string>
+
+    <!-- Check Vehicle -->
+    <string name="check_vehicle_card_title">Verificar se o veículo já está registrado</string>
+    <string name="label_first_name">Primeiro Nome</string>
+    <string name="hint_first_name">Digite o primeiro nome</string>
+    <string name="label_license_plate">Placa do Carro</string>
+    <string name="hint_license_plate">Digite a placa do carro</string>
+    <string name="vehicle_registered_yes">Veículo Registrado: Sim</string>
+    <string name="vehicle_registered_no">Veículo Registrado: Não</string>
+    <string name="desc_facebook">Entrar com Facebook</string>
+    <string name="desc_twitter">Entrar com Twitter</string>
+    <string name="desc_linkedin">Entrar com LinkedIn</string>
+    <string name="manage_records_desc">Gerencie os registros de veículos abaixo</string>
+    <string name="invalid_password">Senha inválida</string>
+    <string name="ver_detalhes">Ver detalhes</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="menu_title">Menu Principal</string>
+    <string name="add_entry_title">Registrar / Editar Veículo</string>
+    <string name="vehicle_list_title">Lista de Veículos</string>
+    <string name="vehicle_details_title">Detalhes do Veículo</string>
+    <string name="check_vehicle_title">Verificar Veículo</string>
+
+</resources>

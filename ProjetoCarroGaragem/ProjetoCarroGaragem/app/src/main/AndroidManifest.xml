@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.koll.meu_app_car">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Meu_app_car">
+
+        <!-- Activity inicial (Tela de boas-vindas) -->
+        <activity
+            android:name=".ui.WelcomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Login"
+            android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Tela de login -->
+        <activity
+            android:name=".ui.SignInActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Login"
+            android:label="" />
+
+        <!-- Tela de cadastro -->
+        <activity
+            android:name=".ui.SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Login"
+            android:label="" />
+
+        <!-- Tela principal (antiga MainActivity) -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false"
+            android:label="" />
+
+        <!-- Tela de menu -->
+        <activity
+            android:name=".ui.MenuActivity"
+            android:exported="false"
+            android:label="" />
+
+        <!-- Tela de cadastro de veículos -->
+        <activity
+            android:name=".ui.AddEntryActivity"
+            android:exported="false"
+            android:label="" />
+
+        <!-- Lista de veículos -->
+        <activity
+            android:name=".ui.VehicleListActivity"
+            android:exported="false"
+            android:label="" />
+
+        <!-- Detalhes de um registro -->
+        <activity
+            android:name=".ui.DetalhesEntryActivity"
+            android:exported="false"
+            android:label="" />
+
+        <!-- Tela de verificação de veículo -->
+        <activity
+            android:name=".ui.CheckVehicleActivity"
+            android:exported="false"
+            android:label="" />
+
+    </application>
+
+</manifest>

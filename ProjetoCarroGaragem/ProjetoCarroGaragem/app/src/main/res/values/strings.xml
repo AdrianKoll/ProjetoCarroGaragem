@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Corex Security</string>
+    
+    <!-- Telas de autenticação -->
+    <string name="welcome">Bem-vindo</string>
+    <string name="welcome_description">Bem-vindo ao sistema de controle de veículos. Gerencie entradas e saídas de forma simples e eficiente.</string>
+    <string name="company_name">COREX SECURITY</string>
+    <string name="company_slogan">CONTROLE INTELIGENTE</string>
+    <string name="sign_in">Entrar</string>
+    <string name="sign_up">Cadastrar</string>
+    <string name="sign_in_social">Entrar com Redes Sociais</string>
+    
+    <!-- Campos de login/cadastro -->
+    <string name="user_name">Nome de usuário</string>
+    <string name="password">Senha</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Telefone</string>
+    <string name="remember_password">Lembrar senha</string>
+    <string name="terms_conditions">Aceito os termos e condições</string>
+    <string name="back">Voltar</string>
+    <string name="already_have_account">Já tem uma conta?</string>
+    <string name="dont_have_account">Não tem conta?</string>
+    
+    <!-- Campos de veículos -->
+    <string name="hint_motivo">Motivo</string>
+    <string name="hint_nome_completo">Nome completo</string>
+    <string name="hint_placa">Placa do carro</string>
+    <string name="hint_modelo_cor">Modelo / Cor</string>
+    <string name="hint_horario_entrada">Horário de entrada</string>
+    <string name="hint_horario_saida">Horário de saída</string>
+    <string name="hint_observacao">Observação</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_Entrar">Entrar</string>
+    <string name="hint_bem_vindo">Bem-vindo ao DriveTrack</string>
+    
+    <!-- Mensagens -->
+    <string name="login_success">Login realizado com sucesso!</string>
+    <string name="login_error">Usuário ou senha incorretos</string>
+    <string name="signup_success">Cadastro realizado com sucesso!</string>
+    <string name="field_required">Este campo é obrigatório</string>
+    <string name="password_min_length">A senha deve ter pelo menos 6 caracteres</string>
+    <string name="invalid_email">Digite um e-mail válido</string>
+    <string name="accept_terms">Você deve aceitar os termos e condições</string>
+    
+    <!-- Busca -->
+    <string name="search_hint">Buscar por placa, nome, motivo ou modelo...</string>
+    <string name="no_results">Nenhum veículo encontrado</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_plate">Placa</string>
+    <string name="filter_name">Nome</string>
+    <string name="filter_reason">Motivo</string>
+</resources>

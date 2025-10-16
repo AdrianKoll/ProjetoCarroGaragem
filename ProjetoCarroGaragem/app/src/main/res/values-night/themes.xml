@@ -1,0 +1,6 @@
+<resources>
+    <!-- Aqui você só muda o que precisa no modo noturno, não repete tudo -->
+    <style name="Theme.Meu_app_car" parent="Base.Theme.Meu_app_car">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

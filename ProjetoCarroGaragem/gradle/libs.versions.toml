@@ -1,0 +1,64 @@
+[versions]
+# Plugins
+kotlin = "2.0.21"          # versão estável e compatível com Room 2.8.x
+agp = "8.5.2"              # Android Gradle Plugin
+ksp = "2.0.21-1.0.25"      # KSP compatível com Kotlin 2.0.21
+room = "2.8.2"
+
+# AndroidX
+appcompat = "1.7.0"
+material = "1.12.0"
+constraintlayout = "2.1.4"
+activity = "1.9.2"
+lifecycle = "2.8.4"
+core = "1.13.1"
+databinding = "8.5.2"      # deve acompanhar a versão do AGP
+
+# Coroutines
+coroutines = "1.7.3"
+
+# Tests
+junit = "4.13.2"
+androidx_test_core = "1.6.1"
+androidx_test_ext_junit = "1.2.1"
+androidx_test_runner = "1.6.2"
+espresso = "3.6.1"
+
+[libraries]
+# Base
+core = { module = "androidx.core:core-ktx", version.ref = "core" }
+
+# Room
+room-runtime   = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-ktx       = { module = "androidx.room:room-ktx", version.ref = "room" }
+room-compiler  = { module = "androidx.room:room-compiler", version.ref = "room" }
+
+# UI
+appcompat        = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+material         = { module = "com.google.android.material:material", version.ref = "material" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+databinding-runtime = { module = "androidx.databinding:databinding-runtime", version.ref = "databinding" }
+databinding-ktx     = { module = "androidx.databinding:databinding-ktx", version.ref = "databinding" }
+
+# Activity
+activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
+
+# Lifecycle
+lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+lifecycle-runtime   = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+lifecycle-livedata  = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
+
+# Coroutines
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+
+# Tests
+junit          = { module = "junit:junit", version.ref = "junit" }
+test-core      = { module = "androidx.test:core", version.ref = "androidx_test_core" }
+test-ext-junit = { module = "androidx.test.ext:junit", version.ref = "androidx_test_ext_junit" }
+test-runner    = { module = "androidx.test:runner", version.ref = "androidx_test_runner" }
+espresso-core  = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android      = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp-plugin          = { id = "com.google.devtools.ksp", version.ref = "ksp" }
